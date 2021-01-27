@@ -1,6 +1,6 @@
-# Scores distributor version 1.0
+# Data distributor version 1.0
 
-**Scores distributor** là một chương trình thống kê số liệu.
+**Data distributor** là một chương trình thống kê số liệu.
 
 - [Yêu cầu](#Yêu-cầu)
 - [Cách sử dụng](#Cách-sử-dụng)
