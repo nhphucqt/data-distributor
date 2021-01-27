@@ -29,7 +29,7 @@ if int(platform.release()) >= 8:
     ctypes.windll.shcore.SetProcessDpiAwareness(True)
 
 root = tk.Tk()
-root.title('Thống kê thành phần điểm')
+root.title('Thống kê thành phần số liệu')
 root.geometry('600x600')
 root.rowconfigure(0,weight=1)
 root.columnconfigure(0,weight=1)
@@ -56,6 +56,7 @@ textbox1 = tk.Text(
     frame1,
     wrap='none',
     font=customFont,
+    undo=True,
     xscrollcommand=xscrollbar1.set,
     yscrollcommand=yscrollbar1.set
 )
