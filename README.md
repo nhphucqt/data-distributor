@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Scores distributor version 1.0
 
 **Scores distributor** là một chương trình thống kê số liệu.
@@ -60,3 +61,9 @@ python3 app.py
     * Giá trị `key` có dạng "`*|*`", dấu `*` có thể có giá trị nằm trong tập `{"<=","<","==",">",">="}`.
     * Giá trị `value` là một danh sách, một phần tử trong danh sách gồm ba giá trị `x`, `y` và `s`, `x` và `y` là hai số thực dùng cho giá trị `key` ở trên, khi xét đến một số liệu `a` thì chương trình sẽ kiểm tra mệnh đề "`x "*" a "*" y`", ở đây 2 dấu `"*"` lần lượt là 2 dấu trong "`*|*`", nếu đúng thì sẽ đếm vào thành phần tương ứng, nếu sai thì ngược lại, `s` là một xâu là tên của thành phần, `s` sẽ được in ra và tiếp theo là số lượng số thuộc thành phần.
         * **Ví dụ**: giá trị `key` là "`<=|<`" thì chương trình sẽ kiểm tra xem "`x <= a < y`" có đúng hay không, nếu đúng thì sẽ đếm vào thành phần tương ứng (là thành phần `>= x` và `< y`), nếu sai thì ngược lại, giả sử `s = "x --> <y"` và số lượng số thuộc thành phần là `23` thì sau khi xử lí xong thì chương trình sẽ in ra ở dòng mới là "`x --> <y : 23`".
+=======
+# scores-distributor ver 1.0
+ The counting distribution student scores program
+# REQUIREMENTS
+ - python3
+>>>>>>> 4ad582e5bd13d5344bb0eb7e6e70744c264044bc
